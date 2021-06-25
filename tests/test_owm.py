@@ -1,8 +1,11 @@
-import owm
 import pytest
 from unittest.mock import patch
 from unittest.mock import MagicMock
-
+import sys
+import os
+cwd = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(cwd, '..'))
+import owm
 
 key = 'keymaterial'
 
