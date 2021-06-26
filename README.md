@@ -22,9 +22,9 @@ the project's performance in the pipeline.
 * Python 3.7+ (tested against 3.8 and 3.9)
 * Python virtual environment module (I use `virtualenv` (`pip3 install virtualenv`))
 * Github account
-* travis-ci.com account (https://travis-ci.com, sign in with your Github account, don't add any projects yet)
-* coveralls.io account (https://coveralls.io, sign in with your Github account, don't add any projects yet)
-* sonarcloud.io account (https://sonarcloud.io, sign in with your Github account, don't add any projects yet)
+* travis-ci.com account (https://travis-ci.com, sign in with your Github account, choose the free plan, don't add any projects yet)
+* coveralls.io account (https://coveralls.io, sign in with your Github account, choose the free plan, don't add any projects yet)
+* sonarcloud.io account (https://sonarcloud.io, sign in with your Github account, choose the free plan, don't add any projects yet)
 
 ### General Procedure
 #### Setup
