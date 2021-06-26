@@ -6,3 +6,8 @@ install: "pip install -r requirements.txt"
 script: py.test --cov owm tests -vv
 after_success:
   - coveralls
+addons:
+  sonarcloud:
+    organization: jwoytek
+  script:
+    - sonar-scanner
