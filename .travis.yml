@@ -1,8 +1,15 @@
 language: python
 python:
   - "3.9"
-  - "3.7"
+#  - "3.7"
 install: "pip install -r requirements.txt"
-script: py.test --cov owm tests -vv
+script: 
+  - py.test --cov --cov-report=xml owm tests -vv
+  - sonar-scanner
 after_success:
   - coveralls
+addons:
+  sonarcloud:
+    organization: jwoytek
+      #  script:
+      #    - sonar-scanner
